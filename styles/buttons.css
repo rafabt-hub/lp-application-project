@@ -19,12 +19,12 @@
 }
 
 .btn:hover {
-  --btn-bg-color: linear-gradient(90deg, var(--brand-color-secondary) 0%,
-  var(--brand-color-primary) 100%);
+  --btn-bg-color: linear-gradient(90deg, var(--brand-color-secondary) 0%, var(--brand-color-primary) 100%);
   --btn-color: var(--surface-color);
 
   -webkit-background-clip: initial;
   background-clip: initial;
+  color: var(--btn-color);
 }
 
 .btn-sm {
@@ -49,7 +49,7 @@
     content: "";
     position: absolute;
     border-radius: inherit;
-    inset: 0.09375rem;
+    inset: 1px;
     background-color: var(--bg-color);
   }
 
